@@ -2,13 +2,13 @@
   "version": "2.0.0",
   "tasks": [
       {
-          "label": "Build Cycle",
+          "label": "Build Program_Name",
           "type": "shell",
           "command": "g++",
           "args": [
-              "src/Cycle.c",  // Update this path as necessary
+              "src/Program_Name.c",  // Update this path as necessary
               "-o",
-              "build/Cycle.exe",  // Update this path as necessary
+              "build/Program_Name.exe",  // Update this path as necessary
               "-lbgi",
               "-lgdi32",
               "-lcomdlg32",
