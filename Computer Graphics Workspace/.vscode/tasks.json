@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "Build Cycle",
+          "type": "shell",
+          "command": "g++",
+          "args": [
+              "src/Cycle.c",  // Update this path as necessary
+              "-o",
+              "build/Cycle.exe",  // Update this path as necessary
+              "-lbgi",
+              "-lgdi32",
+              "-lcomdlg32",
+              "-luuid",
+              "-loleaut32",
+              "-lole32"
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher": ["$gcc"]
+      }
+  ]
+}
